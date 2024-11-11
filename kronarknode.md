@@ -56,7 +56,7 @@
             - switch value [1 bit]
         - socket type index [1]
         - socket port slot [1]
-        - if incoming:
+        - if incoming and not switch:
             - if connected:
                 - connection node [1]
                 - connection socket [1]
